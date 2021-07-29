@@ -20,6 +20,7 @@ module.exports = {
     host: '0.0.0.0',
     publicPath: '/assets/',
     historyApiFallback: true,
+    open: true,
   },
   plugins: [
     new MiniCssExtractPlugin(),
